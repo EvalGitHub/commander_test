@@ -5,7 +5,8 @@
   "main": "index.js",
   "bin": {
     "evel_cli": "bin/app.js",
-    "app_test": "bin/app_test.js"
+    "app_test": "bin/app_test.js",
+    "app_ink": "bin/app_ink.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
