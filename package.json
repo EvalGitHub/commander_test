@@ -9,17 +9,24 @@
     "app_ink": "bin/app_ink.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
     "chalk": "^4.1.0",
     "commander": "^6.1.0",
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "download-git-repo": "^3.0.2",
+    "import-jsx": "^4.0.0",
     "ink": "^3.0.5",
     "ora": "^5.1.0",
     "react": "^16.13.1"
